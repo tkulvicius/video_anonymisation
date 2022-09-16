@@ -5,13 +5,19 @@
 This program is used to anonymise faces in videos. It will apply blurred mask on the face (around the eye region) in each video frame. NOTE that this program uses OpenPose to find face keypoints. You have to use your own videos. It can run on both Windoes and Linux OS.
 
 ## Requirements:
-OpenPose. You can download OpenPose from
+### OpenPose
+You can download OpenPose from
+
 https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
-OpenCV 2. You can download OpenCV 2 from
+### OpenCV 2
+You can download OpenCV 2 from
+
 https://opencv.org/releases/
 
-FFMPEG. You can download FFMPEG from
+### FFMPEG
+You can download FFMPEG from
+
 https://ffmpeg.org/download.html
 
 ## Parameters:

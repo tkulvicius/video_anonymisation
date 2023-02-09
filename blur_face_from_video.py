@@ -16,22 +16,22 @@ import numpy as np
 import time
 # import argparse
 
-### BEGIN PARAMETRS ==========================================================
+### BEGIN PARAMETERS ==========================================================
 
 # Folder where OpenPose is installed
-# OP_FOLDER = 'C:/Program Files/openpose'
-OP_FOLDER = '/home/tkulvicius/openpose/build'
+OP_FOLDER = 'C:/Program Files/openpose'
+# OP_FOLDER = '/home/tkulvicius/openpose/build'
 
 # Folder where OpenPose model are stored
-# OP_MODELS = 'C:/Program Files/openpose/models'
-OP_MODELS = '/home/tkulvicius/openpose/models'
+OP_MODELS = 'C:/Program Files/openpose/models'
+# OP_MODELS = '/home/tkulvicius/openpose/models'
 
 # Folder where FFMPEG is installed
 # FFMPEG_BIN = 'C:/Program Files/ffmpeg/bin/ffmpeg.exe' # on Windows
 FFMPEG_BIN = 'ffmpeg' # on Linux
 
 # Input folder where video data is stored
-video_path = '../face_blurring/samples/'
+video_path = 'samples/'
 
 # Output folder where OpenPose skeleton will be stored
 out_path_skeleton = 'skeleton/'
@@ -55,7 +55,7 @@ NOISE_LEVEL = 25
 BLUR_WND_SIZE = 75 # half of the width of the elipse mask in pixels
 ASPECT_RATIO = 0.45 # 1:X (height of the elipse mask with respect to whidth)
 
-### END PARAMETRS ============================================================
+### END PARAMETERS ============================================================
 
 
 # Import OpenPose

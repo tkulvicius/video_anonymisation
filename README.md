@@ -2,7 +2,9 @@
 
 ## Description of the program:
 
-This program is used to anonymise faces in videos. It will apply blurred mask on the face (around the eye region) in each video frame. NOTE that this program uses OpenPose to find face keypoints. You have to use your own videos. It can run on both Windoes and Linux OS.
+This program is used to anonymise faces in videos. It will apply blurred mask on the face (around the eye region) in each video frame. NOTE that this program uses OpenPose to find face keypoints. You have to use your own videos. It can run on both Windows and Linux OS.
+
+This program was tested on Windows 11 OS with Python 3.7.0, Numpy 1.21.5, and OpenCV2 4.5.5.
 
 ## Requirements:
 ### OpenPose
